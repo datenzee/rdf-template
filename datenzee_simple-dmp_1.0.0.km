@@ -1,0 +1,609 @@
+{
+  "id": "datenzee:simple-dmp:1.0.0",
+  "kmId": "simple-dmp",
+  "metamodelVersion": 13,
+  "name": "Simple DMP",
+  "organizationId": "datenzee",
+  "packages": [
+    {
+      "createdAt": "2023-01-23T11:29:20.366297Z",
+      "description": "Simple Data Management Plan",
+      "events": [
+        {
+          "annotations": [],
+          "createdAt": "2023-01-23T11:22:31.231618488Z",
+          "entityUuid": "46a27cfc-46ce-46a4-9ab3-942366022cd6",
+          "eventType": "AddKnowledgeModelEvent",
+          "parentUuid": "00000000-0000-0000-0000-000000000000",
+          "uuid": "d3895773-e571-4645-8e83-d36859ac58d2"
+        },
+        {
+          "annotations": [],
+          "createdAt": "2023-01-23T11:22:32.743Z",
+          "entityUuid": "890a4132-5cb5-4b04-b0fe-b8ebfe949ce5",
+          "eventType": "AddChapterEvent",
+          "parentUuid": "00000000-0000-0000-0000-000000000000",
+          "text": null,
+          "title": "",
+          "uuid": "a6d57127-880e-44ea-b783-4af1fea12d9e"
+        },
+        {
+          "annotations": {
+            "changed": false
+          },
+          "createdAt": "2023-01-23T11:23:06.397Z",
+          "entityUuid": "890a4132-5cb5-4b04-b0fe-b8ebfe949ce5",
+          "eventType": "EditChapterEvent",
+          "parentUuid": "00000000-0000-0000-0000-000000000000",
+          "questionUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": true,
+            "value": "My Chapter"
+          },
+          "uuid": "8c973920-4225-4d99-af90-894220b7ef69"
+        },
+        {
+          "annotations": [],
+          "createdAt": "2023-01-23T11:23:07.61Z",
+          "entityUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "890a4132-5cb5-4b04-b0fe-b8ebfe949ce5",
+          "questionType": "OptionsQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "757ff55a-2de7-464b-a76b-de26dcd88232"
+        },
+        {
+          "annotations": {
+            "changed": true,
+            "value": [
+              {
+                "key": "rdfType",
+                "value": "https://w3id.org/dcso/ns/core#DMP"
+              }
+            ]
+          },
+          "createdAt": "2023-01-23T11:23:38.039Z",
+          "entityUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "itemTemplateQuestionUuids": {
+            "changed": false
+          },
+          "parentUuid": "890a4132-5cb5-4b04-b0fe-b8ebfe949ce5",
+          "questionType": "ListQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": true,
+            "value": "DMP"
+          },
+          "uuid": "01449546-a599-49de-8f27-05d5c55155e7"
+        },
+        {
+          "annotations": [],
+          "createdAt": "2023-01-23T11:23:39.979Z",
+          "entityUuid": "7123f780-37ae-4f95-bf28-4c7975a9eefc",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "OptionsQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "98eadb17-01ef-4d2b-b1c0-d5c76445330c"
+        },
+        {
+          "annotations": {
+            "changed": false
+          },
+          "answerUuids": {
+            "changed": false
+          },
+          "createdAt": "2023-01-23T11:23:41.789Z",
+          "entityUuid": "7123f780-37ae-4f95-bf28-4c7975a9eefc",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "OptionsQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": true,
+            "value": "Title"
+          },
+          "uuid": "2c2a3411-7b38-4b36-a8e6-b9eb191f8c35"
+        },
+        {
+          "annotations": {
+            "changed": true,
+            "value": [
+              {
+                "key": "rdfType",
+                "value": "http://purl.org/dc/terms/title"
+              }
+            ]
+          },
+          "createdAt": "2023-01-23T11:24:01.237Z",
+          "entityUuid": "7123f780-37ae-4f95-bf28-4c7975a9eefc",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "ValueQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": false
+          },
+          "uuid": "b5cd0fdb-906e-4a6e-8b86-f3fe7752c9b8",
+          "valueType": {
+            "changed": true,
+            "value": "StringQuestionValueType"
+          }
+        },
+        {
+          "annotations": [],
+          "createdAt": "2023-01-23T11:24:06.197Z",
+          "entityUuid": "651c9c3a-6676-45fb-b8a0-041624ef3fa0",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "OptionsQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "76cb15db-5f7e-4c82-8dae-dab39af228bc"
+        },
+        {
+          "annotations": {
+            "changed": false
+          },
+          "answerUuids": {
+            "changed": false
+          },
+          "createdAt": "2023-01-23T11:24:08.239Z",
+          "entityUuid": "651c9c3a-6676-45fb-b8a0-041624ef3fa0",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "OptionsQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": true,
+            "value": "Description"
+          },
+          "uuid": "99eb3382-2bb3-43f5-812c-57935d5defb0"
+        },
+        {
+          "annotations": {
+            "changed": false
+          },
+          "createdAt": "2023-01-23T11:24:10.346Z",
+          "entityUuid": "651c9c3a-6676-45fb-b8a0-041624ef3fa0",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "ValueQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": false
+          },
+          "uuid": "4e5771c2-9e29-4679-bfff-dc076aedaa60",
+          "valueType": {
+            "changed": true,
+            "value": "StringQuestionValueType"
+          }
+        },
+        {
+          "annotations": [],
+          "createdAt": "2023-01-23T11:24:13.782Z",
+          "entityUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "OptionsQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "ea4ce776-c710-45d6-94ab-f60b839064d8"
+        },
+        {
+          "annotations": {
+            "changed": false
+          },
+          "answerUuids": {
+            "changed": false
+          },
+          "createdAt": "2023-01-23T11:24:15.516Z",
+          "entityUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "OptionsQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": true,
+            "value": "Dataset"
+          },
+          "uuid": "aefa8da9-44b6-4d49-ae8a-497adb9adce8"
+        },
+        {
+          "annotations": {
+            "changed": false
+          },
+          "createdAt": "2023-01-23T11:24:18.751Z",
+          "entityUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "itemTemplateQuestionUuids": {
+            "changed": false
+          },
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "ListQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": false
+          },
+          "uuid": "eb3c3620-5f53-415a-9edf-6d139d108ece"
+        },
+        {
+          "annotations": [],
+          "createdAt": "2023-01-23T11:24:21.069Z",
+          "entityUuid": "f69fe71c-f810-4312-a15f-7321341ad51e",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "questionType": "OptionsQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "ca0ce9e2-5911-4879-a048-d9aa0e3876a0"
+        },
+        {
+          "annotations": {
+            "changed": false
+          },
+          "answerUuids": {
+            "changed": false
+          },
+          "createdAt": "2023-01-23T11:24:23.346Z",
+          "entityUuid": "f69fe71c-f810-4312-a15f-7321341ad51e",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "questionType": "OptionsQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": true,
+            "value": "Title"
+          },
+          "uuid": "419106ff-4794-4931-a4ba-e9ac37deea2a"
+        },
+        {
+          "annotations": {
+            "changed": true,
+            "value": [
+              {
+                "key": "rdfType",
+                "value": "http://purl.org/dc/terms/title"
+              }
+            ]
+          },
+          "createdAt": "2023-01-23T11:24:29.102Z",
+          "entityUuid": "f69fe71c-f810-4312-a15f-7321341ad51e",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "questionType": "ValueQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": false
+          },
+          "uuid": "9f74e59d-569f-4fc8-9fbb-be854d6a7475",
+          "valueType": {
+            "changed": true,
+            "value": "StringQuestionValueType"
+          }
+        },
+        {
+          "annotations": [],
+          "createdAt": "2023-01-23T11:24:35.19Z",
+          "entityUuid": "7058442b-96f8-4717-a94f-164ae03c7165",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "questionType": "OptionsQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": null,
+          "title": "",
+          "uuid": "1c913294-dbac-4f43-953a-19a017776aa0"
+        },
+        {
+          "annotations": {
+            "changed": true,
+            "value": [
+              {
+                "key": "rdfType",
+                "value": "http://purl.org/dc/terms/description"
+              }
+            ]
+          },
+          "createdAt": "2023-01-23T11:24:49.942Z",
+          "entityUuid": "651c9c3a-6676-45fb-b8a0-041624ef3fa0",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "ValueQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": false
+          },
+          "uuid": "0a1242c0-b9e4-40e1-8985-fabec53f1507",
+          "valueType": {
+            "changed": false
+          }
+        },
+        {
+          "annotations": {
+            "changed": true,
+            "value": [
+              {
+                "key": "rdfType",
+                "value": "http://purl.org/dc/terms/description"
+              }
+            ]
+          },
+          "answerUuids": {
+            "changed": false
+          },
+          "createdAt": "2023-01-23T11:24:53.364Z",
+          "entityUuid": "7058442b-96f8-4717-a94f-164ae03c7165",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "questionType": "OptionsQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": true,
+            "value": "Description"
+          },
+          "uuid": "18a0a806-7ea3-49f4-9644-fed0c087a83d"
+        },
+        {
+          "annotations": {
+            "changed": true,
+            "value": [
+              {
+                "key": "rdfType",
+                "value": "https://w3id.org/dcso/ns/core#Dataset"
+              },
+              {
+                "key": "rdfRelation",
+                "value": "https://w3id.org/dcso/ns/core#hasDataset"
+              }
+            ]
+          },
+          "createdAt": "2023-01-23T11:25:53.841Z",
+          "entityUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "itemTemplateQuestionUuids": {
+            "changed": false
+          },
+          "parentUuid": "64e290f7-d638-491e-a366-152e1df35aa5",
+          "questionType": "ListQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": false
+          },
+          "uuid": "c1a25136-1b78-4dc8-ab21-590f1b9400f9"
+        },
+        {
+          "annotations": {
+            "changed": false
+          },
+          "createdAt": "2023-01-23T11:26:42.082Z",
+          "entityUuid": "7058442b-96f8-4717-a94f-164ae03c7165",
+          "eventType": "EditQuestionEvent",
+          "expertUuids": {
+            "changed": false
+          },
+          "parentUuid": "278d932d-7bb9-4782-b3b3-e5de82240101",
+          "questionType": "ValueQuestion",
+          "referenceUuids": {
+            "changed": false
+          },
+          "requiredPhaseUuid": {
+            "changed": false
+          },
+          "tagUuids": {
+            "changed": false
+          },
+          "text": {
+            "changed": false
+          },
+          "title": {
+            "changed": false
+          },
+          "uuid": "1ce9e5e6-6244-4589-86cc-dd9b557f2d77",
+          "valueType": {
+            "changed": true,
+            "value": "StringQuestionValueType"
+          }
+        }
+      ],
+      "forkOfPackageId": null,
+      "id": "datenzee:simple-dmp:1.0.0",
+      "kmId": "simple-dmp",
+      "license": "Apache-2.0",
+      "mergeCheckpointPackageId": null,
+      "metamodelVersion": 13,
+      "name": "Simple DMP",
+      "organizationId": "datenzee",
+      "previousPackageId": null,
+      "readme": "# Simple Data Management Plan\n\nThe knowledge model contains an example usage of annotations that serve to automatically generate RDF from the users' answers. It complies with the [Datenzee RDF Template](https://github.com/datenzee/rdf-template).",
+      "version": "1.0.0"
+    }
+  ],
+  "version": "1.0.0"
+}

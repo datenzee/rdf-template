@@ -1,0 +1,44 @@
+{
+  "templateId": "rdf-template",
+  "organizationId": "datenzee",
+  "version": "1.0.0",
+  "name": "Datenzee RDF Template",
+  "description": "A template that generates RDF from KM based on annotations",
+  "license": "Apache-2.0",
+  "metamodelVersion": 10,
+  "recommendedPackageId": null,
+  "allowedPackages": [
+    {
+      "orgId": null,
+      "kmId": null,
+      "minVersion": null,
+      "maxVersion": null
+    }
+  ],
+  "formats": [
+    {
+      "uuid": "afb0f27d-d9c5-4632-b222-0caea0c6c1bd",
+      "name": "RDF Turtle",
+      "shortName": "ttl",
+      "icon": "fas fa-share-alt",
+      "color": "#f15a24",
+      "steps": [
+        {
+          "name": "jinja",
+          "options": {
+            "template": "content/main.ttl.jinja2",
+            "content-type": "text/turtle",
+            "extension": "ttl"
+          }
+        }
+      ]
+    }
+  ],
+  "_tdk": {
+    "version": "3.19.1",
+    "readmeFile": "README.md",
+    "files": [
+      "content/*"
+    ]
+  }
+}
