@@ -1,12 +1,11 @@
 {
   "templateId": "rdf-template",
   "organizationId": "datenzee",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Datenzee RDF Template",
   "description": "A template that generates RDF from KM based on annotations",
   "license": "Apache-2.0",
-  "metamodelVersion": 10,
-  "recommendedPackageId": null,
+  "metamodelVersion": 11,
   "allowedPackages": [
     {
       "orgId": null,
@@ -19,9 +18,7 @@
     {
       "uuid": "afb0f27d-d9c5-4632-b222-0caea0c6c1bd",
       "name": "RDF Turtle",
-      "shortName": "ttl",
       "icon": "fas fa-share-alt",
-      "color": "#f15a24",
       "steps": [
         {
           "name": "jinja",
@@ -35,7 +32,7 @@
     }
   ],
   "_tdk": {
-    "version": "3.19.1",
+    "version": "3.20.0",
     "readmeFile": "README.md",
     "files": [
       "content/*"

@@ -22,6 +22,10 @@ Knowledge Model (annotations: [])
 
 ## Changelog
 
+### 1.1.0
+
+- Adjusted to template metamodel version 11 (released in DSW 3.20.0)
+
 ### 1.0.0
 
 - Initial version of Datenzee RDF Template
